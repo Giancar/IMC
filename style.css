@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 48, 102);
+  --primary-color-darker: rgb(13, 9, 56);
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 50px;
+}
+h1{
+  font-size: 45px;
+}
+form input, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  background-color: rgb(218, 218, 218);
+}
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+form button:hover {
+  background: var(--primary-color-darker);
+}
+.paragrafo-resultado{
+  background:rgb(83, 191, 117);
+  padding: 10px 20px;
+  border-radius: 16px;
+
+}
+.bad{
+  background:rgb(212, 38, 38);
+  padding: 10px 20px;
+  border-radius: 16px;
+}
